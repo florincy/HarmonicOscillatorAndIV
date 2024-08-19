@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jmol Embedded Example</title>
+    <script type="text/javascript" src="jsmol/jsmol/JSmol.min.js"></script>
+</head>
+<body>
+    <h1>Jmol Embedded in HTML</h1>
+    <div id="jmolApplet" style="width: 400px; height: 400px;"></div>
+    <script type="text/javascript">
+        var jmolApplet = Jmol.getApplet("jmolApplet", {
+            width: 400,
+            height: 400,
+            j2sPath: "jsmol/jsmol/j2s",
+            script: "set background white; set spin on"
+        });
+    </script>
+</body>
+</html>
+

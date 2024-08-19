@@ -1,0 +1,60 @@
+[
+    {
+        "label": "Trajectory",
+        "importPath": "ase.io",
+        "description": "ase.io",
+        "isExtraImport": true,
+        "detail": "ase.io",
+        "documentation": {}
+    },
+    {
+        "label": "read",
+        "importPath": "ase.io",
+        "description": "ase.io",
+        "isExtraImport": true,
+        "detail": "ase.io",
+        "documentation": {}
+    },
+    {
+        "label": "write",
+        "importPath": "ase.io",
+        "description": "ase.io",
+        "isExtraImport": true,
+        "detail": "ase.io",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "Trajectory",
+        "importPath": "ase.io.trajectory",
+        "description": "ase.io.trajectory",
+        "isExtraImport": true,
+        "detail": "ase.io.trajectory",
+        "documentation": {}
+    },
+    {
+        "label": "view",
+        "importPath": "ase.visualize",
+        "description": "ase.visualize",
+        "isExtraImport": true,
+        "detail": "ase.visualize",
+        "documentation": {}
+    },
+    {
+        "label": "traj",
+        "kind": 5,
+        "importPath": "teste",
+        "description": "teste",
+        "peekOfCode": "traj = Trajectory('combined_vibrations.traj')\nfor atoms in traj:\n    view(atoms, viewer='ngl')  # or 'ngl'",
+        "detail": "teste",
+        "documentation": {}
+    }
+]
